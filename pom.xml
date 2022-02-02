@@ -10,10 +10,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>coupon</module>
-        <module>member</module>
-        <module>order</module>
-        <module>product</module>
-        <module>ware</module>
+        <module>mall-coupon</module>
+        <module>mall-member</module>
+        <module>mall-order</module>
+        <module>mall-product</module>
+        <module>mall-ware</module>
+        <module>renren-fast</module>
+
     </modules>
 </project>
