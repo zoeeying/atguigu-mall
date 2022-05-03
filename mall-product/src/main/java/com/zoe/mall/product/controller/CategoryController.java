@@ -1,18 +1,16 @@
 package com.zoe.mall.product.controller;
 
 import java.util.Arrays;
-import java.util.Map;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.zoe.mall.product.entity.CategoryEntity;
 import com.zoe.mall.product.service.CategoryService;
-import com.zoe.mall.common.utils.PageUtils;
 import com.zoe.mall.common.utils.R;
 
 
@@ -31,14 +29,13 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /**
-     * 列表
+     * 查出所有分类以及子分类，树形结构
      */
-    @RequestMapping("/list")
+    @RequestMapping("/list/tree")
     // @RequiresPermissions("product:category:list")
-    public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
-
-        return R.ok().put("page", page);
+    public R list(){
+        List<CategoryEntity> entities = categoryService.listWithTree();
+        return R.ok().put("data", entities);
     }
 
 
