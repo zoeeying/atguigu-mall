@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.zoe.common.utils;
+package com.zoe.mall.common.utils;
 
 import org.apache.http.HttpStatus;
 

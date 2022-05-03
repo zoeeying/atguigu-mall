@@ -5,8 +5,8 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.zoe.common.utils.PageUtils;
-import com.zoe.common.utils.Query;
+import com.zoe.mall.common.utils.PageUtils;
+import com.zoe.mall.common.utils.Query;
 
 import com.zoe.mall.ware.dao.WareOrderTaskDao;
 import com.zoe.mall.ware.entity.WareOrderTaskEntity;

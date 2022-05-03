@@ -6,9 +6,9 @@
  * 版权所有，侵权必究！
  */
 
-package com.zoe.common.xss;
+package com.zoe.mall.common.xss;
 
-import com.zoe.common.utils.RRException;
+import com.zoe.mall.common.utils.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**

@@ -1,7 +1,7 @@
 package com.zoe.mall.member.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zoe.common.utils.PageUtils;
+import com.zoe.mall.common.utils.PageUtils;
 import com.zoe.mall.member.entity.MemberCollectSubjectEntity;
 
 import java.util.Map;

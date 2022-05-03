@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.zoe.mall.ware.entity.WareInfoEntity;
 import com.zoe.mall.ware.service.WareInfoService;
-import com.zoe.common.utils.PageUtils;
-import com.zoe.common.utils.R;
+import com.zoe.mall.common.utils.PageUtils;
+import com.zoe.mall.common.utils.R;
 
 
 

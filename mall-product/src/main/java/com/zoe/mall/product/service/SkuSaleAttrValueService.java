@@ -1,7 +1,7 @@
 package com.zoe.mall.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zoe.common.utils.PageUtils;
+import com.zoe.mall.common.utils.PageUtils;
 import com.zoe.mall.product.entity.SkuSaleAttrValueEntity;
 
 import java.util.Map;

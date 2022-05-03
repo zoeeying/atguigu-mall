@@ -1,4 +1,4 @@
-package com.zoe.common.xss;
+package com.zoe.mall.common.xss;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

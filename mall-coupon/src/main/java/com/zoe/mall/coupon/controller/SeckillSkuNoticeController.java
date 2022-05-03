@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.zoe.mall.coupon.entity.SeckillSkuNoticeEntity;
 import com.zoe.mall.coupon.service.SeckillSkuNoticeService;
-import com.zoe.common.utils.PageUtils;
-import com.zoe.common.utils.R;
+import com.zoe.mall.common.utils.PageUtils;
+import com.zoe.mall.common.utils.R;
 
 
 

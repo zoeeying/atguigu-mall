@@ -1,7 +1,7 @@
 package com.zoe.mall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zoe.common.utils.PageUtils;
+import com.zoe.mall.common.utils.PageUtils;
 import com.zoe.mall.ware.entity.WareOrderTaskDetailEntity;
 
 import java.util.Map;
