@@ -30,6 +30,20 @@ public class CouponController {
     @Autowired
     private CouponService couponService;
 
+
+
+
+    /**
+     * 获取会员优惠券
+     * 用于远程调用，别的服务会调用该接口
+     */
+    @RequestMapping("/member/list")
+    public R memberCoupons(){
+        CouponEntity couponEntity = new CouponEntity();
+        couponEntity.setCouponName("满100减20");
+        return R.ok().put("coupons", Arrays.asList(couponEntity));
+    }
+
     /**
      * 列表
      */
