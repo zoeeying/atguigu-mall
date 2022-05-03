@@ -21,7 +21,7 @@
         <!-- 依赖公共的微服务 -->
         <dependency>
             <groupId>com.zoe.mall</groupId>
-            <artifactId>mall-common</artifactId>
+            <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

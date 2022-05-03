@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mall-common</artifactId>
+    <artifactId>common</artifactId>
     <description>公共的依赖、工具类、Bean等</description>
     <dependencies>
         <dependency>
